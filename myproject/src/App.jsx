@@ -1,4 +1,4 @@
-import './APP.css'
+import './App.css'
 import pampeo from '@/assets/Pompeo.png'
 import img1 from '@/assets/img1.png'
 import fr1 from '@/assets/fr1.png'
@@ -162,7 +162,7 @@ export default function App(){
 
   <h1>Latest news New updates</h1>
   <div className='butinp'>    
-    
+
     <input type="text" placeholder='Enter your Email' />
     <button className='SUBSCRIBE'>SUBSCRIBE</button>
   </div>
