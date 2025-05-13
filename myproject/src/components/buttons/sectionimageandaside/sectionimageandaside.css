@@ -1,0 +1,61 @@
+.aside_3{
+    width: 35%;
+
+
+}
+.aside_3 h1{
+    font-size: 50px;
+}
+.aside_3 p{
+    font-size: 25px;
+    line-height: 34px;
+    margin-top: 50px;
+    color: gray;
+}
+.aside_3 h3{
+    font-size: 30px;
+    margin-top: 30px;
+}
+.ssss{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 60px;
+}
+.kuza1{
+    width: 18%;
+}
+.kuza2{
+    width: 18%;
+    margin-top: 40px;
+}
+
+
+
+@media(min-width:300px) and (max-width:600px){
+.ssss{
+    flex-direction: column;
+
+}
+.aside_3 {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+.aside_3 h1{
+    font-size: 25px;
+
+
+}
+
+.aside_3 p{
+    font-size: 19px;
+    
+
+}
+.kuza1{
+    width: 40%;
+    margin: auto;
+}
+
+}

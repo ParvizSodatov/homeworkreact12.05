@@ -1,0 +1,39 @@
+.article1{
+    /* border: 2px solid red; */
+    width: 40%;
+}
+.article1 h1{
+    font-size: 50px;
+    width: 70%;
+
+}
+.article1 p{
+    font-size: 25px;
+    line-height: 36px;
+    margin-top: 30px;
+    color: gray;
+}
+
+@media(min-width:300px) and (max-width:600px){
+.article1{
+    width: 85%;
+    margin: auto;
+    margin-top: 40px;
+    text-align: center;
+}
+.article1 h1{
+    width: 90%;
+}
+}
+
+@media(min-width:601px) and (max-width:900px){
+.article1 h1{
+    font-size: 30px;
+
+}
+.article1 p{
+    font-size: 20px;
+    
+}
+
+}

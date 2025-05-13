@@ -1,0 +1,17 @@
+.article222222222{
+    width: 27.3%;
+    margin: auto;
+    margin-top: 30px;
+    /* border: 2px solid red; */
+}
+
+
+
+@media(min-width:300px) and (max-width:600px){
+.article222222222{
+    width: 60%;
+    margin: auto;
+    margin-top: 30px;
+}
+    
+}
