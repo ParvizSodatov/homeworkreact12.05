@@ -161,7 +161,8 @@ export default function App(){
   <img src={telegram} alt="" />
 
   <h1>Latest news New updates</h1>
-  <div className='butinp'>
+  <div className='butinp'>    
+    
     <input type="text" placeholder='Enter your Email' />
     <button className='SUBSCRIBE'>SUBSCRIBE</button>
   </div>
